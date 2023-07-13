@@ -1,0 +1,29 @@
+@import "reset";
+@import "variables";
+
+header{
+    background-color: $color2;
+    font-family: $fuente_Belonosima, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        a{
+            text-decoration: none;
+            color: $color1;
+            &:hover{
+                color: $color5;
+            }
+        }
+    }
+}
+main{
+    background-color: $color1;
+    font-family: $fuente_popins, sans-serif;	
+    font-size: 1.5rem;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #1F8A70;
+  font-family: "Belanosima", sans-serif, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  position: fixed; }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem; }
+    header nav a {
+      text-decoration: none;
+      color: #FC7300; }
+      header nav a:hover {
+        color: #EFF5F5; }
+
+main {
+  background-color: #FC7300;
+  font-family: "popins", sans-serif, sans-serif;
+  font-size: 1.5rem; }
