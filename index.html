@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>UntrefSchool</title>
 </head>
@@ -18,7 +19,7 @@
         <div class="logo">
             <div class="logo__titulo">
                 <img src="./images/logo.jpg" alt="logo">
-                <h1>UntrefSchool</h1>
+                <h2>UntrefSchool</h2>
             </div>
             <img class="logo__menu" src="./images/menu_hamburguesa.png" alt="menu">
         </div>
@@ -26,9 +27,9 @@
           <div class="nav__menu">
               <a href="#">Home</a>  
               <a href="#quienes">Quienes somos</a>  
-              <a href="#">¿Por qué elegirnos?</a>  
-              <a href="#">Propuesta educativa</a>  
-              <a href="#">Ultimas noticias</a>  
+              <a href="#por_que_elegirnos">¿Por qué elegirnos?</a>  
+              <a href="#propuesta_educativa">Propuesta educativa</a>  
+              <a href="#ultimas_noticias">Ultimas noticias</a>  
               <a href="./pages/contacto.html">Contacto</a>  
           </div>
         </nav>
@@ -37,17 +38,108 @@
        <section class="main__titulo">
               <h1>Instituto UntrefSchool</h1>
        </section>
-       <h2>¿Quienes somos?</h2>
-       <section  id="quienes">
-            <div class="quienes__somos">
+       <section >
+         <h2 id="quienes">¿Quienes somos?</h2>
+            <div class="main__contenido">
                 <div>
                     <img src="./images/niña_jugando.jpg" alt="niña_jugando"></img>
                 </div>
                 <div>   
                     <p>En nuestra escuela, nos enorgullece ser un centro educativo de excelencia que se dedica a brindar una educación de calidad a nuestros estudiantes desde los primeros años de su desarrollo. Somos una comunidad educativa comprometida con el éxito académico, el crecimiento personal y el bienestar de cada niño y niña que forma parte de nuestra familia escolar.</p>
+                    <p>
+                    Nuestro equipo está compuesto por un grupo de profesionales apasionados y dedicados, incluyendo directivos, maestros y personal de apoyo, quienes trabajan en colaboración para crear un ambiente de aprendizaje estimulante y seguro. Valoramos la importancia de la formación continua y nos esforzamos por mantenernos actualizados con las mejores prácticas educativas para ofrecer a nuestros estudiantes una educación sólida y de vanguardia.
+                    </p>
                 </div>   
             </div>
        </section>
+       <section>
+         <h2 id="por_que_elegirnos">¿Por qué elegirnos?</h2>
+            <div class="main__contenido">
+                <div>
+                    <p> En nuestra escuela, nos comprometemos a brindar una educación de alta calidad que promueva el éxito académico de cada estudiante. Nuestro enfoque educativo se basa en programas rigurosos y actualizados, impartidos por un equipo de docentes altamente capacitados. Nos esforzamos por fomentar la excelencia académica en un ambiente de apoyo y motivación constante.</p>
+                    <p>Reconocemos la importancia de no solo desarrollar el aspecto académico, sino también el crecimiento personal de nuestros estudiantes. Nuestro enfoque se centra en cultivar habilidades sociales, emocionales y físicas, así como el pensamiento crítico, la resolución de problemas y la creatividad. Buscamos formar individuos equilibrados y seguros de sí mismos, listos para enfrentar los desafíos del mundo real.</p>
+                </div>
+                <div><img src="./images/por_que_elegirnos.jpg" alt="por que elegirnos"></div>
+            </div>
+       </section>
+       <section id="propuesta_educativa">
+          <h2>Propuesta educativa</h2>
+          <div class="propuesta">
+            <div class="hexagono">
+                <div class="hexagono__inner">
+                  <div class="hexagono__image__1"></div>
+                </div>
+            </div>
+            <div class="hexagono">
+              <div class="hexagono__inner">
+                <div class="hexagono__image__2"></div>
+              </div>
+            </div>
+            <div class="hexagono">
+                <div class="hexagono__inner">
+                  <div class="hexagono__image__3"></div>
+                </div>
+            </div>
+            <div class="hexagono">
+              <div class="hexagono__inner">
+                <div class="hexagono__image__4"></div>
+              </div>
+            </div>
+          </div>
+       </section>
+       <h2 id="ultimas_noticias">Ultimas noticias</h2>
+       <section id="ultimas">
+              <div class="noticia">
+                  <div class="noticia__imagen">
+                      <img src="https://placehold.co/300" alt="noticia_1">
+                  </div>
+                  <div class="noticia__contenido">
+                      <h3>Noticia 1</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                      </p>
+                  </div>
+              </div>
+              <div class="noticia">
+                  <div class="noticia__imagen">
+                      <img src="https://placehold.co/300" alt="noticia_2">
+                  </div>
+                  <div class="noticia__contenido">
+                      <h3>Noticia 2</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                      </p>
+                  </div>
+              </div>
+            <div class="noticia">
+                <div class="noticia__imagen">
+                    <img src="https://placehold.co/300" alt="noticia_3">
+                </div>
+                <div class="noticia__contenido">
+                    <h3>Noticia 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+                    </p>
+                </div>
+            </div>
+       </section>
+       <hr>
+       <footer>
+          <div class="redes">
+            <h3>Redes sociales</h3>
+            <img src="./images/facebook.svg" alt="facebook">
+            <img src="./images/twitter.svg" alt="twitter">
+            <img src="./images/instagram.svg" alt="instagram">
+          </div>
+          <div>
+            <h3>Instituto</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3327.768672516993!2d-60.00829092497213!3d-33.481372973377276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDI4JzUyLjkiUyA2MMKwMDAnMjAuNiJX!5e0!3m2!1ses!2sar!4v1689567288972!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contacto__footer">
+            <h3>Contacto</h3>
+            <h5>Email: instituto@untrefschool.com</h5>
+            <h5>tel: 03407-444444</h5>
+            <h5>whatsapp: +543407535567</h5>
+          </div>
+       </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
