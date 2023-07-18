@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="../images/classroom.png" sizes="16x16">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap" rel="stylesheet">    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <div class="logo">
             <div class="logo__titulo">
                 <img src="../images/logo.jpg" alt="logo">
-                <h1>UntrefSchool</h1>
+                <h2>UntrefSchool</h2>
             </div>
             <img class="logo__menu" src="../images/menu_hamburguesa.png" alt="menu">
         </div>
@@ -34,9 +34,36 @@
         </nav>
     </header>
     <main>
-        <h1>Contacto</h1>
+        <div class="formulario">
+            <form class="formulario__contenido" action="https://formsubmit.co/0354fef917fac9b37813f4678287f15c" method="POST">
+                <h1>Contacto</h1>
+                <input type="text" name="nombre" placeholder="Nombre" required maxlength="25" minlength="5">
+                    <input type="email" name="email" placeholder="Email" required maxlength="30" minlength="10">
+                    <textarea name="mensaje" placeholder="Mensaje" required maxlength="150"></textarea>
+                    <input type="submit" value="Enviar mensaje">
+                    <input type="hidden" name="_next" value="https://claudiomr79.github.io/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL/">
+                    <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
     </main>
-    <footer>
-    </footer>
+    <hr>
+       <footer>
+          <div class="redes">
+            <h3>Redes sociales</h3>
+            <img src="../images/facebook.svg" alt="facebook">
+            <img src="../images/twitter.svg" alt="twitter">
+            <img src="../images/instagram.svg" alt="instagram">
+          </div>
+          <div>
+            <h3>Instituto</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3327.768672516993!2d-60.00829092497213!3d-33.481372973377276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDI4JzUyLjkiUyA2MMKwMDAnMjAuNiJX!5e0!3m2!1ses!2sar!4v1689567288972!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contacto__footer">
+            <h3>Contacto</h3>
+            <h5>Email: instituto@untrefschool.com</h5>
+            <h5>tel: 03407-444444</h5>
+            <h5>whatsapp: +543407535567</h5>
+          </div>
+       </footer>
 </body>
 </html>
